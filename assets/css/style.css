@@ -1,0 +1,255 @@
+body {
+    display: grid;
+    grid-template-columns: 550px auto;
+    margin: 0;
+    font-size: 20px;
+}
+.pp {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+}
+/* LEFT SIDE */
+.left-side {
+    background-color: yellow;
+}
+.left-container {
+    margin-top: 600px;
+    margin-left: 100px;
+}
+.left-title-box {
+    background-color: black;
+    color: white;
+    width: 220px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left-value {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.left-list {
+    margin-bottom: 10px;
+}
+.link-list {
+    display: flex;
+    text-decoration: none;
+}
+.link-list:link {
+    color: black;
+}
+.link-list:visited {
+    color: black;
+}
+.left-list-dot {
+    height: 50px;
+    width: 10px;
+    background-color: black;
+}
+.left-list-icon {
+    width: 50px;
+    margin-bottom: 5px;
+}
+.left-list-text {
+    border-bottom-style: solid;
+    align-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.left-list-title {
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.left-list-time {
+    font-weight: bold;
+}
+.left-subject-title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.left-subject-container {
+    width: 380px;
+    color: #000;
+    background-color: #f1f1f1;
+}
+.left-subject-value {
+    padding: 0.01em 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+/* RIGHT SIDE */
+.right-side {
+    background-color: black;
+    color: white;
+}
+.name-container {
+    margin-top: 150px;
+    text-align: -webkit-right;
+}
+.name-profile {
+    width: 700px;
+    background-color: yellow;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name-profile-text {
+    margin-left: 15px;
+    flex-grow: 0;
+    color: black;
+}
+.name-profile-divider-master {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+.name-profile-divider {
+    height: 10px;
+    background-color: black;
+}
+.name-profile-divider-first {
+    margin-bottom: 10px;
+    height: 5px;
+    background-color: white;
+}
+.name-profile-divider-last {
+    margin-top: 10px;
+    height: 5px;
+    background-color: white;
+}
+.nick-profile {
+    text-align: left;
+    width: 700px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.nick-profile-box {
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    width: 400px;
+    text-align: center;
+}
+.desc-first {
+    margin-top: 50px;
+    text-align: left;
+    width: 700px;
+}
+.desc-first-text {
+    width: 600px;
+    text-align: justify;
+}
+.desc-last {
+    margin-top: 20px;
+    text-align: left;
+    width: 700px;
+}
+.desc-last-text {
+    width: 600px;
+    text-align: justify;
+}
+.right-container {
+    margin-top: 105px;
+}
+.right-title-box {
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.right-value {
+    margin-left: 50px;
+}
+.right-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: yellow;
+}
+.right-time {
+    margin-top: 15px;
+    width: 150px;
+    border-bottom-style: solid;
+    border-color: yellow;
+    font-weight: bold;
+}
+.right-value-text {
+    margin-top: 10px;
+    text-align: justify;
+    margin-right: 30px;
+}
+.right-value-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    color: yellow;
+}
+.right-value-item {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+.sosmed-container {
+    margin-top: 25px;
+    text-align: -webkit-right;
+}
+.sosmed-content {
+    background-color: yellow;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sosmed {
+    margin-left: 15px;
+    flex-grow: 0;
+    color: black;
+    display: flex;
+}
+.sosmed-text {
+    letter-spacing: 3px;
+    align-self: center;
+    margin-left: 15px;
+}
+.sosmed-divider-master {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+.sosmed-divider {
+    height: 8px;
+    background-color: black;
+}
+.sosmed-divider-first {
+    margin-bottom: 10px;
+    height: 3px;
+    background-color: white;
+}
+.sosmed-divider-last {
+    margin-top: 10px;
+    height: 3px;
+    background-color: white;
+}
